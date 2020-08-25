@@ -1,0 +1,9 @@
+applications:
+-  name: equipmentmastr
+   memory: 1G
+   path: target/demo_project-0.0.1-SNAPSHOT.war
+   random-route: false
+   buildpack: https://github.com/cloudfoundry/java-buildpack.git
+   services:
+   - em-dev
+   
